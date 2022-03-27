@@ -1,0 +1,122 @@
+body {
+    background-color: pink;
+    margin:0;
+}
+  
+  .wrap {
+    background-image: url(https://image.winudf.com/v2/image1/Y29tLmxhdW5jaGVyLnRoZW1lLnQyMTE4MjUyMDFfc2NyZWVuXzJfMTU3NjU5MzA5Ml8wMDY/screen-2.jpg?fakeurl=1&type=.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .ball {
+    text-align: center;
+    height:2.2em;
+    width:2.2em;
+    border: 3px solid maroon;
+    border-radius: 50%;
+    position: absolute;
+    opacity:0.3;
+  }
+  
+  .ball:hover {
+    background-color: pink;
+    opacity:1;
+  }
+  
+  .heart:before {
+      content: '\2661';
+      color: maroon;
+      font-size:1.25em;
+  }
+  
+  a, a:hover {
+    text-decoration: none;
+    color:maroon;
+  }
+  
+  #github {
+    top: 17vh;
+    left: 72vw;
+  }
+  
+  #email {
+    top: 22vh;
+    left: 29vw;
+  }
+  
+  #twitter {
+    top: 61vh;
+    left: 22vw;
+  }
+  
+  #telegram {
+    top: 75vh;
+    left: 52vw;
+  }
+  
+  #twitch {
+    top: 37vh;
+    left: 83vw;
+  }
+  
+  #instagram {
+    top: 5.5vh;
+    left: 9vw;
+  }
+  
+  #amazon {
+    top: 73vh;
+    left: 60vw;
+  }
+  
+  #youtube {
+    top: 33vh;
+    left: 43vw;
+  }
+
+  #facebook {
+    top: 77vh;
+    left: 35vw;
+  }
+
+  #maps {
+    top: 46vh;
+    left: 38vw;
+  }
+
+  #about {
+    top: 67vh;
+    left: 79vw;
+  }
+
+  #about:hover .card {
+    display: block;
+  }
+
+  .card {
+    background-color: pink;
+    color: maroon;
+    height: 60px;
+    width: 200px;
+    padding: 10px;
+    display: none;
+    z-index: 1;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3);
+    border-radius: 16px;
+  }
+
+
+  @media screen and (max-width: 1024px) {
+
+
+  }
+
+  
+
+
+  

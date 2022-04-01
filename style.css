@@ -1,10 +1,10 @@
 body {
-    background-color: pink;
+    background-color: lavender;
     margin:0;
 }
   
   .wrap {
-    background-image: url(https://image.winudf.com/v2/image1/Y29tLmxhdW5jaGVyLnRoZW1lLnQyMTE4MjUyMDFfc2NyZWVuXzJfMTU3NjU5MzA5Ml8wMDY/screen-2.jpg?fakeurl=1&type=.jpg);
+    background-image: url(kitty.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% 100%;
@@ -17,26 +17,26 @@ body {
     text-align: center;
     height:2.2em;
     width:2.2em;
-    border: 3px solid maroon;
+    border: 3px solid blueviolet;
     border-radius: 50%;
     position: absolute;
-    opacity:0.3;
+    opacity:0.1;
   }
   
   .ball:hover {
-    background-color: pink;
+    background-color: lavender;
     opacity:1;
   }
   
   .heart:before {
       content: '\2661';
-      color: maroon;
+      color: blueviolet;
       font-size:1.25em;
   }
   
   a, a:hover {
     text-decoration: none;
-    color:maroon;
+    color:blueviolet;
   }
   
   #github {
@@ -99,8 +99,8 @@ body {
   }
 
   .card {
-    background-color: pink;
-    color: maroon;
+    background-color: lavender;
+    color: blueviolet;
     height: 60px;
     width: 200px;
     padding: 10px;
@@ -111,8 +111,11 @@ body {
   }
 
 
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 920px) {
 
+    .wrap {
+      background-image: url(kitty-small.jpg);
+    }
 
   }
 

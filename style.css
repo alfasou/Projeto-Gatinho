@@ -101,7 +101,7 @@ body {
   .card {
     background-color: lavender;
     color: blueviolet;
-    height: 60px;
+    height: 100px;
     width: 200px;
     padding: 10px;
     display: none;
